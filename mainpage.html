@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTSMAIN</title>
+    <style>
+         @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+        .notosanskr * { 
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        *{
+            margin: 0 auto;
+        }
+       
+        .bg{
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+            object-fit: cover;
+            background-image: url(img/skynight.png);
+            display: flex;
+            justify-content: center;
+        }
+        .logo{
+            position: relative;
+        }
+        .logo img{
+            position: relative;
+            width: 105px;
+            height: 223px;
+            top: 10%;
+            left: -5%;
+            /* margin: -25px 0 0 -25px; */
+            margin: auto;
+          
+        }
+        .tit{
+            font-family: 'Noto Sans KR', sans-serif;
+            color: #fff;
+            font-size: 30px;
+            top: 40%;
+            
+            position: absolute;
+            text-align: center;
+            margin: auto;
+           
+        }
+        .tit_accent{
+            font-weight: bold;
+        }
+        .submit{
+            border-radius: 250px;
+            background-color: #44138E;
+            width: 198px;
+            height: 64px;
+            position: absolute;
+            /* top: 58%;
+            margin-left: 450px; */
+            margin: auto;
+            top: 52%;
+        }
+        .submit>a{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 29px;
+            margin-top: 20px;
+            position: absolute;
+        }
+        .submit:hover{
+            background-color: powderblue;
+        }
+        .bts{
+            position: absolute;
+            margin: auto;
+            width: 350px;
+            height: 250px;
+           top: 55%;
+           left: 512px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="bg">
+           <div class="logo">
+                <img src="img/BTS_Logo_white.png">
+           </div>
+            <p class="tit"> BTS의 진짜 성공비결은<br>
+                <span class="tit_accent">‘위로’</span>와 <span class="tit_accent">‘희망’</span> 아닐까요</p>
+
+        <div class="submit">
+            <a href="contents.html">보라해에 빠져보기</a>
+        </div>
+        <div class="bts">
+            <img src="img/BTS_01.png">
+        </div>
+        </div> <!--bg end-->
+    </div>  <!-- wrap end-->
+</body>
+</html>
